@@ -55,11 +55,11 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.mariadb.jdbc</groupId>
-    <artifactId>mariadb-java-client</artifactId>
+    <artifactId>mariadb-java-client-jre7</artifactId>
     <packaging>jar</packaging>
     <name>mariadb-java-client</name>
     <version>1.6.1</version>
-    <description>JDBC driver for MariaDB and MySQL</description>
+    <description>JDBC driver for MariaDB and MySQL for java 7</description>
     <url>https://mariadb.com/kb/en/mariadb/about-mariadb-connector-j/</url>
 
     <properties>
@@ -261,8 +261,8 @@
                         <argument>--format</argument>
                         <argument>tar.gz</argument>
                         <argument>--output</argument>
-                        <argument>${project.name}-${git.commit.id.describe}.tar.gz</argument>
-                        <argument>${git.branch}</argument>
+                        <argument>${project.name}-jre7.tar.gz</argument>
+                        <argument>develop-jre7</argument>
                     </arguments>
                 </configuration>
             </plugin>
